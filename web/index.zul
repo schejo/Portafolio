@@ -24,35 +24,46 @@
         <!-- Navbar de Bootstrap como componentes nativos -->
         <n:nav class="navbar navbar-expand-md navbar-light">
             <n:div class="container-fluid">
-                <n:button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <n:button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                     <n:span class="navbar-toggler-icon"></n:span>
                 </n:button>
                 <n:div class="collapse navbar-collapse" id="navbar-toggler">
-                    <n:a class="navbar-brand" href="#">Hidden brand</n:a>
-                    <n:ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <n:a class="navbar-brand" href="#"> <n:img src="img/icono.png" width="50" alt="logo de la pagina web"></n:img></n:a>
+                   
+                    <n:ul class="navbar-nav d-flex justify-content-center align-items-center">
                         <n:li class="nav-item">
-                            <n:a class="nav-link active" aria-current="page" href="#">Home</n:a>
+                            <n:a class="nav-link active" aria-current="page" href="#">Sobre mi</n:a>
                         </n:li>
                         <n:li class="nav-item">
-                            <n:a class="nav-link" href="#">Link</n:a>
+                            <n:a class="nav-link" href="#">Proyectos</n:a>
                         </n:li>
                         <n:li class="nav-item">
-                            <n:a class="nav-link disabled">Disabled</n:a>
+                            <n:a class="nav-link" href="#">Testimonios</n:a>
+                        </n:li>
+                         <n:li class="nav-item">
+                            <n:a class="nav-link" href="#">Contacto</n:a>
                         </n:li>
                     </n:ul>
-                    <n:form class="d-flex" role="search">
+<!--                    <n:form class="d-flex" role="search">
                         <n:input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
                         <n:button class="btn btn-outline-success" type="submit">Search</n:button>
-                    </n:form>
+                    </n:form>-->
                 </n:div>
             </n:div>
         </n:nav>
 
-        
-        <n:div class="container">
-           
+      
 
-        </n:div>
+       <!--seccion hero-->
+        
+        <n:section class="hero align-items-stretch">
+            <n:div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+                <n:img src="img/desarrollo.jpg" width="50" alt="Foto de Perfil"></n:img>
+                    <n:h1>Hola, Soy Sergio Perez</n:h1>
+                    <n:h2>Desarrollo sitios web y escribo articulos sobre programacion</n:h2>
+
+            </n:div>
+        </n:section>
        
         
     </window>
