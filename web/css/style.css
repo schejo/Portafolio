@@ -10,15 +10,33 @@
 /*estilos generales*/
 section{
     display: flex;
-    flex-direction: colum;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
 h1{
     font-size: 2.5rem;
+   
+  font-family: "Rubik Dirt", system-ui;
+  
 }
-
+.seccion-oscura{
+    color: white;
+    background-color: #1b1b32;
+}
+.seccion-clara{
+    color: white;
+    background-color: white;
+}
+.seccion-titulo{
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Rubik Dirt',cursive;
+}
+.seccion-texto{
+    font-size: 1.2rem;
+}
 /*seccion hero*/
 .hero{
     background-color: #f5f6f7;
@@ -29,10 +47,62 @@ h1{
     padding: 3rem;
 }
 
+.hero-imagen-desarrollador{
+    width:  200px;
+    height: 200px;
+   
+    margin: 20px;
+    
+}
+
+.hero-principal h2{
+    font-size: 1.5em;
+    color: #615151;
+}
+
+/*sobre mi*/
+.sobre-mi{
+    height: 500px;
+    padding: 10px;
+}
+
+.sobre-mi .contenedor{
+    max-width: 600px;
+    text-align: center;
+}
+
+/*rxperiencia*/
+.experiencia{
+    padding: 40px 40px 60px 40px;
+}
+ .row div{
+    
+    color: black;
+    
+}
+
+.experiencia i{
+    font-size: 2.5rem;
+    color: #7ade30;
+    background-color: #0a0a23;
+    padding: 8px 19px;
+    border-radius: 50%;
+} 
+.experiencia-torulo{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
 
 /*Adadtable (responsivo)*/
 @media screen and (max-width: 767px){
     .navbar-brand{
         display: none;
+    }
+}
+
+@media screem and (min-whidth: 700px){
+    .hero-inferior-imagen{
+        max-width: 600px;
     }
 }
