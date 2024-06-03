@@ -93,25 +93,184 @@
                     <n:p class="experiencia-titulo">Desarrollo Web</n:p>
                     <n:p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non velit pellentesque, maximus augue in, dictum tortor. Donec at sollicitudin neque, eu accumsan est. Cras scelerisque magna at dolor venenatis sagittis et sit amet arcu. Ut rhoncus varius felis a laoreet. Aenean venenatis est eu tortor consequat porta. Maecenas libero mauris, interdum non semper vel, ultrices nec ex. Integer ut eleifend enim, id condimentum ex.</n:p>
                     <n:div class="badges-contenedor">
-                       <n:span class="badge rounded-pill text-bg-primary">HTML</n:span> 
-                       <n:span class="badge rounded-pill text-bg-primary">CSS</n:span> 
-                       <n:span class="badge rounded-pill text-bg-primary">JavaScrip</n:span> 
-                       <n:span class="badge rounded-pill text-bg-primary">React</n:span> 
+                       <n:span class="badge  text-bg-primary">HTML</n:span> 
+                       <n:span class="badge  text-bg-primary">CSS</n:span> 
+                       <n:span class="badge  text-bg-primary">JavaScrip</n:span> 
+                       <n:span class="badge  text-bg-primary">React</n:span> 
                     </n:div>
                 </n:div>
                 <!--articulos-->
                 <n:div class="columna cal-12 col-md-4">
-                    articulos
+                     <n:i class="bi bi-laptop"></n:i>
+                    <n:p class="experiencia-titulo">Articulos</n:p>
+                    <n:p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non velit pellentesque, maximus augue in, dictum tortor. Donec at sollicitudin neque, eu accumsan est. Cras scelerisque magna at dolor venenatis sagittis et sit amet arcu. Ut rhoncus varius felis a laoreet. Aenean venenatis est eu tortor consequat porta. Maecenas libero mauris, interdum non semper vel, ultrices nec ex. Integer ut eleifend enim, id condimentum ex.</n:p>
+                    <n:div class="badges-contenedor">
+                       <n:span class="badge  text-bg-primary">Escribir</n:span> 
+                       <n:span class="badge  text-bg-primary">Editar</n:span> 
+                       <n:span class="badge  text-bg-primary">Blogs</n:span> 
+                      
+                    </n:div>
                 </n:div>
                 <!--estudiantes-->
                 <n:div class="columna cal-12 col-md-4">
-                    estudiantes
+                     <n:i class="bi bi-laptop"></n:i>
+                    <n:p class="experiencia-titulo">Estudios</n:p>
+                    <n:p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non velit pellentesque, maximus augue in, dictum tortor. Donec at sollicitudin neque, eu accumsan est. Cras scelerisque magna at dolor venenatis sagittis et sit amet arcu. Ut rhoncus varius felis a laoreet. Aenean venenatis est eu tortor consequat porta. Maecenas libero mauris, interdum non semper vel, ultrices nec ex. Integer ut eleifend enim, id condimentum ex.</n:p>
+                    <n:div class="badges-contenedor">
+                       <n:span class="badge  text-bg-primary">freeCodeCamp</n:span> 
+                       <n:span class="badge  text-bg-primary">Desarrollo Web</n:span> 
+                       <n:span class="badge  text-bg-primary">Java</n:span> 
+                       <n:span class="badge  text-bg-primary">Base de Datos SQL</n:span> 
+                    </n:div>
                 </n:div>
                 </n:div>
             </n:div>
             
         </n:section>
-       
+       <!--proyectos-->
+        <n:section class="proyectos-recientes  seccion-clara d-flex flex-column">
+            <n:h2 class="seccion-titulo texto-negro">Mis proyectos recientes</n:h2>
+            <n:h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</n:h3>
+            <!--galeria de proyectos-->
+            <n:div class="container text-center proyectos-contenedor">
+            <n:div class="row">
+                <!-- Proyecto 1 -->
+                <n:div class="col-12 col-md-6 col-lg-4">
+                    <n:div class="proyecto">
+                        <n:img src="img/proyecto1.png" alt="Proyecto 1"></n:img>
+                        <n:div class="overlay">
+                            <n:p>Proyecto 1</n:p>
+                            <n:div class="iconos-contenedor">
+                                <n:a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                                    <n:i class="bi bi-github"></n:i>
+                                </n:a>
+                                <n:a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">
+                                    <n:i class="bi bi-laptop"></n:i>
+                                </n:a>
+                                
+                            </n:div>
+                            
+                        </n:div>
+                        
+                    </n:div> 
+                    
+                </n:div>
+                 <!-- Proyecto 2 -->
+                <n:div class="col-12 col-md-6 col-lg-4">
+                    <n:div class="proyecto">
+                        <n:img src="img/proyecto2.png" alt="Proyecto 2"></n:img>
+                        <n:div class="overlay">
+                            <n:p>Proyecto 2</n:p>
+                            <n:div class="iconos-contenedor">
+                                <n:a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                                    <n:i class="bi bi-github"></n:i>
+                                </n:a>
+                                <n:a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">
+                                    <n:i class="bi bi-laptop"></n:i>
+                                </n:a>
+                                
+                            </n:div>
+                            
+                        </n:div>
+                        
+                    </n:div> 
+                    
+                </n:div>
+                 <!-- Proyecto 3 -->
+                <n:div class="col-12 col-md-6 col-lg-4">
+                    <n:div class="proyecto">
+                        <n:img src="img/proyecto3.png" alt="Proyecto 3"></n:img>
+                        <n:div class="overlay">
+                            <n:p>Proyecto 3</n:p>
+                            <n:div class="iconos-contenedor">
+                                <n:a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                                    <n:i class="bi bi-github"></n:i>
+                                </n:a>
+                                <n:a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">
+                                    <n:i class="bi bi-laptop"></n:i>
+                                </n:a>
+                                
+                            </n:div>
+                            
+                        </n:div>
+                        
+                    </n:div> 
+                    
+                </n:div>
+                 <!-- Proyecto 4 -->
+                <n:div class="col-12 col-md-6 col-lg-4">
+                    <n:div class="proyecto">
+                        <n:img src="img/proyecto4.png" alt="Proyecto 4"></n:img>
+                        <n:div class="overlay">
+                            <n:p>Proyecto 4</n:p>
+                            <n:div class="iconos-contenedor">
+                                <n:a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                                    <n:i class="bi bi-github"></n:i>
+                                </n:a>
+                                <n:a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">
+                                    <n:i class="bi bi-laptop"></n:i>
+                                </n:a>
+                                
+                            </n:div>
+                            
+                        </n:div>
+                        
+                    </n:div> 
+                    
+                </n:div>
+                 <!-- Proyecto 5 -->
+                <n:div class="col-12 col-md-6 col-lg-4">
+                    <n:div class="proyecto">
+                        <n:img src="img/proyecto5.png" alt="Proyecto 5"></n:img>
+                        <n:div class="overlay">
+                            <n:p>Proyecto 5</n:p>
+                            <n:div class="iconos-contenedor">
+                                <n:a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                                    <n:i class="bi bi-github"></n:i>
+                                </n:a>
+                                <n:a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">
+                                    <n:i class="bi bi-laptop"></n:i>
+                                </n:a>
+                                
+                            </n:div>
+                            
+                        </n:div>
+                        
+                    </n:div> 
+                    
+                </n:div>
+                 <!-- Proyecto 6 -->
+                <n:div class="col-12 col-md-6 col-lg-4">
+                    <n:div class="proyecto">
+                        <n:img src="img/proyecto6.png" alt="Proyecto 6"></n:img>
+                        <n:div class="overlay">
+                            <n:p>Proyecto 6</n:p>
+                            <n:div class="iconos-contenedor">
+                                <n:a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                                    <n:i class="bi bi-github"></n:i>
+                                </n:a>
+                                <n:a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">
+                                    <n:i class="bi bi-laptop"></n:i>
+                                </n:a>
+                                
+                            </n:div>
+                            
+                        </n:div>
+                        
+                    </n:div> 
+                    
+                </n:div>
+            </n:div>
+                
+                
+                
+            </n:div>
+            <n:a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+             <n:button type="button" class="btn btn-info">Ver mas Proyectos
+             <n:i class="bi bi-arrow-right-circle-fill"></n:i>
+             </n:button>   
+             </n:a>
+        </n:section>
         
     </window>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" type="text/javascript"/>
