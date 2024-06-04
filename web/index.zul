@@ -282,7 +282,7 @@
                 </n:div>
                 <n:ul class="list-group list-group-flush">
                     <n:a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
-                         <n:li class="list-group-item">Programa</n:li>
+                         <n:li class="list-group-item">El decorador @property en Python - cómo usarlo, ventajas y sintaxis</n:li>
                     </n:a>
                    <n:a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
                          <n:li class="list-group-item">Programa 2</n:li>
