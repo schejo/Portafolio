@@ -275,7 +275,7 @@
         <!--articulos-->
         
         <n:section class="articulos justify-content-start">
-            <n:h2>Articulos</n:h2>
+            <n:h2 class="seccion-titulo texto-negro">Articulos</n:h2>
             <n:div class="card" >
                 <n:div class="card-header">
                     Mas recientes
