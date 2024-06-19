@@ -284,19 +284,53 @@
                 </n:div>
                 <n:ul class="list-group list-group-flush">
                     <n:a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
-                         <n:li class="list-group-item">El decorador @property en Python - cómo usarlo, ventajas y sintaxis</n:li>
-                    </n:a>
-                   <n:a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
-                         <n:li class="list-group-item">Programa 2</n:li>
+                        <n:li class="list-group-item">El decorador @property en Python - cómo usarlo, ventajas y sintaxis</n:li>
                     </n:a>
                     <n:a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
-                         <n:li class="list-group-item">Programa 3</n:li>
+                        <n:li class="list-group-item">Programa 2</n:li>
+                    </n:a>
+                    <n:a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+                        <n:li class="list-group-item">Programa 3</n:li>
                     </n:a>
                    
                 </n:ul>
             </n:div>
+            <n:a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+                <n:button type="button" class="btn btn-info">Ver mas Articulos
+                    <n:i class="bi bi-arrow-right-circle-fill"></n:i>
+                </n:button>   
+            </n:a>
         </n:section>
         
+        <!--textimonios-->
+        
+        <n:section class="testimonios seccion-clara">
+            <n:h2 class="seccion-titulo">Testimonios</n:h2>
+            <n:h3 class="seccion-descripcion">Estos son algunos testimonios de mis clientes</n:h3>
+            <!--carrucel-->
+            <n:div id="testimonios-carrucel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <n:div class="carousel-inner">
+                    <n:div class="carousel-item active">
+                        <n:img src="img/proyecto6.png" class="d-block w-100" alt="..."></n:img>
+                    </n:div>
+                    <n:div class="carousel-item">
+                        <n:img src="img/proyecto5.png" class="d-block w-100" alt="..."></n:img>
+                    </n:div>
+                    <n:div class="carousel-item">
+                        <n:img src="img/proyecto1.png" class="d-block w-100" alt="..."></n:img>
+                    </n:div>
+                </n:div>
+                <n:button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <n:span class="carousel-control-prev-icon" aria-hidden="true"></n:span>
+                    <n:span class="visually-hidden">Previous</n:span>
+                </n:button>
+                <n:button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <n:span class="carousel-control-next-icon" aria-hidden="true"></n:span>
+                    <n:span class="visually-hidden">Next</n:span>
+                </n:button>
+            </n:div>
+            
+        </n:section>
         
         
     </window>
