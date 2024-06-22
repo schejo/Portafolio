@@ -11,7 +11,7 @@
 <!--gogle fonst-->
 <?link rel="preconnect" href="https://fonts.googleapis.com"?>
 <?link rel="preconnect" href="https://fonts.gstatic.com" crossorigin?>
-<?link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet"?>
+<?link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet"?>
 <!--metadatos-->
 <?meta name="author" content="Jane Doe"?>
 <?meta name="description" content="Portfolio"?>
@@ -311,23 +311,76 @@
             <n:div id="testimonios-carrucel" class="carousel carousel-dark slide" data-bs-ride="carousel">
                 <n:div class="carousel-inner">
                     <n:div class="carousel-item active">
-                        <n:img src="img/proyecto6.png" class="d-block w-100" alt="..."></n:img>
+                        <n:div class="container">
+                      <n:img class="testimonio-imagen rounded-circle" src="img/proyecto6.png"  alt="Foto Gino"></n:img>
+                      <n:p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sapien lectus, dignissim eu euismod nec, tristique non felis. Nam tincidunt nulla est, sed dapibus ex gravida a. Sed ut erat luctus, imperdiet est consectetur, dapibus justo. Sed tincidunt aliquet dolor. Aenean pharetra varius ligula id rhoncus.</n:p>
+                      <n:div class="testimonio-info">
+                          <n:p class="cliente">Gino</n:p>
+                          <n:p class="cargo">Gerente de proyectos de Desarrollo Web</n:p>
+
+                      </n:div>
+                        </n:div>
                     </n:div>
-                    <n:div class="carousel-item">
-                        <n:img src="img/proyecto5.png" class="d-block w-100" alt="..."></n:img>
+                      <n:div class="carousel-item">
+                        <n:div class="container">
+                      <n:img class="testimonio-imagen rounded-circle" src="img/proyecto5.png"  alt="Foto Sergio"></n:img>
+                      <n:p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sapien lectus, dignissim eu euismod nec, tristique non felis. Nam tincidunt nulla est, sed dapibus ex gravida a. Sed ut erat luctus, imperdiet est consectetur, dapibus justo. Sed tincidunt aliquet dolor. Aenean pharetra varius ligula id rhoncus.</n:p>
+                      <n:div class="testimonio-info">
+                          <n:p class="cliente">Sergio</n:p>
+                          <n:p class="cargo">Jefe de Ssitemas</n:p>
+
+                      </n:div>
+                        </n:div>
                     </n:div>
-                    <n:div class="carousel-item">
-                        <n:img src="img/proyecto1.png" class="d-block w-100" alt="..."></n:img>
+                      <n:div class="carousel-item">
+                        <n:div class="container">
+                      <n:img class="testimonio-imagen rounded-circle" src="img/proyecto4.png"  alt="Foto Alejadnro"></n:img>
+                      <n:p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sapien lectus, dignissim eu euismod nec, tristique non felis. Nam tincidunt nulla est, sed dapibus ex gravida a. Sed ut erat luctus, imperdiet est consectetur, dapibus justo. Sed tincidunt aliquet dolor. Aenean pharetra varius ligula id rhoncus.</n:p>
+                      <n:div class="testimonio-info">
+                          <n:p class="cliente">Alejandro</n:p>
+                          <n:p class="cargo">Jefe de Proyectos</n:p>
+
+                      </n:div>
+                        </n:div>
                     </n:div>
+                 
                 </n:div>
-                <n:button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <n:button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrucel" data-bs-slide="prev">
                     <n:span class="carousel-control-prev-icon" aria-hidden="true"></n:span>
-                    <n:span class="visually-hidden">Previous</n:span>
+                    <n:span class="visually-hidden">Anterior</n:span>
                 </n:button>
-                <n:button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <n:button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrucel" data-bs-slide="next">
                     <n:span class="carousel-control-next-icon" aria-hidden="true"></n:span>
-                    <n:span class="visually-hidden">Next</n:span>
+                    <n:span class="visually-hidden">Siguiente</n:span>
                 </n:button>
+            </n:div>
+            
+        </n:section>
+        <!--contactos-->
+        
+        <n:section class="contacto seccion-oscura">
+            <n:div class="container">
+                <n:div class="container text-center d-flex justify-content-evenly">
+                    <n:div class="row">
+                        <n:div class="col-12 col-md-4 seccion-titulo">
+                            !Hablemos!
+                        </n:div>
+                        <n:div class="col-12 col-md-4 descripcion">
+                            Contactame para iniciar tu proyecto de desarrollo web y hare que su vison de vuelva realizar
+                        </n:div>
+                        <n:div class="cal-12 col-md-4">
+                            <n:a href="mailto:sperezc25@miumg.edu.gt"></n:a>
+                            <n:button type="button">
+                                
+                                
+                            </n:button>
+                        </n:div>
+                        
+                        
+                    </n:div>
+                    
+                </n:div>
+                
             </n:div>
             
         </n:section>
