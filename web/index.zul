@@ -66,12 +66,12 @@
         
         <n:section class="hero align-items-stretch">
             <n:div class="hero-principal d-flex flex-column justify-content-center align-items-center">
-                <n:img class="hero-imagen-desarrollador rounded-circle" src="img/desarrollo.jpg" width="50" alt="Foto de Perfil"></n:img>
-                <n:h1>Hola, Soy Sergio Perez</n:h1>
-                <n:h2>Desarrollo sitios web y escribo articulos sobre programacion</n:h2>
+                <n:img class="hero-imagen-desarrollador rounded-circle" src="img/ima-sergio.png" width="50" alt="Foto de Perfil"></n:img>
+                <n:h1>Hola, Soy Sergio Pêrez</n:h1>
+                <n:h2>Creo soluciones web a medida, optimizo sistemas actuales y realizo implementaciones en la nube.</n:h2>
             </n:div>
             <n:div class="hero-inferior">
-                <n:img class="hero-inferior-imagen img-fluid" src="img/compu.jpg" alt="monitor con lenguajes"> </n:img>
+                <n:img class="hero-inferior-imagen img-fluid" src="img/desarrollo.png" alt="monitor con lenguajes"> </n:img>
             </n:div>
             
             
@@ -79,8 +79,9 @@
         <!--sobre mi--> 
         <n:section id="sobre-mi" class="sobre-mi seccion-oscura">
             <n:div class="contenedor">
-                <n:h2 class="seccion-titulo">Conose a sergio</n:h2>
-                <n:p class="seccion-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non velit pellentesque, maximus augue in, dictum tortor. Donec at sollicitudin neque, eu accumsan est. Cras scelerisque magna at dolor venenatis sagittis et sit amet arcu. Ut rhoncus varius felis a laoreet. Aenean venenatis est eu tortor consequat porta. Maecenas libero mauris, interdum non semper vel, ultrices nec ex. Integer ut eleifend enim, id condimentum ex. Quisque vitae elementum neque. Aliquam erat volutpat. Mauris porta orci velit, nec euismod massa luctus eget. Cras elementum, sem sed pellentesque finibus, tortor mi viverra nisi, nec maximus eros erat ut lectus. Sed euismod urna ut consequat dictum. Duis non maximus nisi, et eleifend mi. Quisque placerat mi vitae rutrum malesuada. Duis ac fringilla urna.</n:p>
+                <n:h2 class="seccion-titulo">Conose a Sergio</n:h2>
+                <n:p class="seccion-texto">Soy un apasionado de la tecnología, actualmente soy programador web y experto en Hostinger. Me dedico a programar y actualizar sistemas web para diversas empresas, además de implementar sistemas de inventario y facturación FEL en la nube. Tengo estudios superiores en Administración de Sistemas por la Universidad Mariano Gálvez. Actualmente, soy freelancer en sistemas web y backend en Java. También ofrezco asesoría tecnológica para implementar nuevos procesos sistematizados a pequeñas y medianas empresas.
+</n:p>
             </n:div>
             
         </n:section>
